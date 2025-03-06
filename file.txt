@@ -1,0 +1,19 @@
+1- Hello World!" in C
+1.	#include <stdio.h>
+2.	#include <string.h>
+3.	#include <math.h>
+4.	#include <stdlib.h>
+5.	
+6.	int main() 
+7.	{
+8.	    
+9.	    char s[100];
+10.	    scanf("%[^\n]%*c", &s);
+11.	    
+12.	    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+13.	    
+14.	    printf("Hello, World!\n");
+15.	    printf("%s", s);    
+16.	    return 0;
+17.	}
+18.	
